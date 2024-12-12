@@ -1,0 +1,106 @@
+{% extends "base/base.html" %} {% load static %} 
+{% block title %}About Us{% endblock %} {% block start %}
+
+<style>
+  .para-text {
+    line-height: 2rem;
+    text-align: justify;
+  }
+</style>
+
+<section class="section-content padding-y">
+  <div class="container-xl d-flex justify-content-center align-items-center">
+    <div class="row justify-content-center w-100">
+      <header class="bg-dark text-white text-center py-4">
+        <h1>About Us</h1>
+      </header>
+
+      <main class="container my-5">
+        <!-- About Us Section -->
+        <section class="mb-5">
+          <p class="text-center fst-italic">
+            Welcome to <strong>Conscious Closet</strong>, your go-to destination
+            for sustainable and ethical fashion.
+          </p>
+          <p class="para-text">
+            We are committed to revolutionizing the fashion industry by
+            connecting eco-conscious consumers with trusted sustainable brands.
+            Our platform not only provides stylish and environmentally
+            responsible products but also empowers shoppers with the knowledge
+            to make informed decisions.
+          </p>
+          <p class="para-text">
+            Conscious Closet is more than just an e-commerce site; it’s a
+            movement towards a greener planet. By promoting transparency and
+            accountability, we aim to reduce the environmental impact of fashion
+            and inspire others to adopt sustainable practices.
+          </p>
+        </section>
+
+        <hr />
+
+        <!-- Mission Section -->
+        <section class="mb-5">
+          <h2 class="text-center text-primary">Our Mission</h2>
+          <p class="para-text">
+            Our mission is to redefine the way people shop for fashion by making
+            sustainability the standard. We strive to create a transparent,
+            user-friendly marketplace that bridges the gap between ethical
+            fashion producers and environmentally conscious consumers. Through
+            education, innovation, and collaboration, we aim to empower
+            individuals to make choices that positively impact the planet.
+          </p>
+        </section>
+
+        <hr />
+
+        <!-- Vision Section -->
+        <section class="mb-5">
+          <h2 class="text-center text-primary">Our Vision</h2>
+          <p class="para-text">
+            We envision a world where sustainable fashion is no longer a niche
+            but the norm. At Conscious Closet, we aspire to lead the global
+            movement towards ethical and eco-friendly fashion by fostering a
+            culture of responsibility, awareness, and innovation. Together, we
+            believe we can transform the industry into a force for good,
+            benefiting both people and the planet.
+          </p>
+        </section>
+
+        <hr />
+
+        <!-- Values Section -->
+        <section>
+          <h2 class="text-center text-primary">Our Values</h2>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <strong>Sustainability:</strong> We prioritize products and
+              practices that minimize environmental impact and promote resource
+              conservation.
+            </li>
+            <li class="list-group-item">
+              <strong>Transparency:</strong> We believe in honest communication
+              and provide complete supply chain visibility for every product.
+            </li>
+            <li class="list-group-item">
+              <strong>Empowerment:</strong> We educate consumers to make
+              informed choices while supporting brands committed to ethical
+              practices.
+            </li>
+            <li class="list-group-item">
+              <strong>Innovation:</strong> We embrace cutting-edge technology to
+              deliver a seamless, impactful shopping experience.
+            </li>
+            <li class="list-group-item">
+              <strong>Community:</strong> We are committed to fostering a global
+              network of individuals and organizations working towards a
+              sustainable future.
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
